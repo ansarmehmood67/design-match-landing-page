@@ -20,7 +20,7 @@ export default {
 		extend: {
 			fontFamily: {
 				'oswald': ['Oswald', 'sans-serif'],
-				'inter': ['Inter', 'sans-serif'],
+				'poppins': ['Poppins', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
