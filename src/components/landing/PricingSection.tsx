@@ -118,26 +118,23 @@ export default function PricingSection() {
 
           {/* Card 3 - Clienti */}
           <motion.div 
-            className="bg-gradient-to-br from-white to-blue-50 p-8 rounded-xl shadow-lg border border-blue-200 relative h-[400px] flex flex-col justify-between group hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-300 hover:-translate-y-2"
+            className="bg-gradient-to-br from-white to-yellow-50 p-8 rounded-xl shadow-lg border border-yellow-200 relative h-[400px] flex flex-col justify-between group hover:shadow-2xl hover:shadow-yellow-500/20 transition-all duration-300 hover:-translate-y-2"
             variants={fadeInUp}
             whileHover={{ scale: 1.02 }}
           >
-            <div className="absolute inset-0 bg-gradient-to-br from-blue-50/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-yellow-100/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl"></div>
             
             <div className="relative z-10">
-              <h3 className="text-4xl font-bold text-gray-900 mb-2 group-hover:text-blue-700 transition-colors">€149,00</h3>
-              <p className="text-sm text-gray-500 mb-4 group-hover:text-gray-600 transition-colors">IVA ESCLUSA</p>
-              <div className="bg-gradient-to-r from-blue-100 to-blue-200 p-3 rounded-lg mb-6 border border-blue-300 group-hover:shadow-md transition-shadow">
-                <p className="text-blue-700 font-bold group-hover:text-blue-800 transition-colors">CLIENTI</p>
-              </div>
+              <h3 className="text-4xl font-bold text-gray-900 mb-2 group-hover:text-yellow-700 transition-colors">€149,00</h3>
+              <p className="text-sm text-gray-500 mb-8 group-hover:text-gray-600 transition-colors">IVA ESCLUSA</p>
             </div>
             
             <div className="relative z-10">
-              <div className="bg-gradient-to-br from-gray-50 to-white p-4 rounded-lg mb-6 border shadow-inner group-hover:shadow-lg transition-shadow">
+              <div className="bg-gradient-to-br from-yellow-50 to-white p-6 rounded-2xl mb-6 border-2 border-yellow-200 shadow-lg group-hover:shadow-xl group-hover:border-yellow-300 transition-all duration-300">
                 <img 
                   src="/lovable-uploads/719d571a-1a2d-4a38-9d88-a850b42f2d80.png" 
                   alt="Tutela Impresa Logo" 
-                  className="h-12 object-contain mx-auto group-hover:scale-110 transition-transform duration-300"
+                  className="h-16 object-contain mx-auto group-hover:scale-110 transition-transform duration-300 drop-shadow-md"
                   onError={(e) => {
                     e.currentTarget.src = tutelaImpresaLogo;
                   }}
@@ -145,9 +142,9 @@ export default function PricingSection() {
               </div>
               <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                 <Button 
-                  variant="default" 
+                  variant="yellow" 
                   size="lg" 
-                  className="w-full hover:shadow-xl hover:shadow-blue-500/30 transition-all duration-300 transform hover:scale-105"
+                  className="w-full hover:shadow-xl hover:shadow-yellow-500/30 transition-all duration-300 transform hover:scale-105"
                   onClick={() => window.open('https://tinyurl.com/FDDLNR', '_blank')}
                 >
                   ACQUISTA ORA
@@ -171,15 +168,14 @@ export default function PricingSection() {
               <div className="bg-white/20 backdrop-blur-sm p-3 rounded-lg mb-6 border border-white/30 group-hover:bg-white/30 transition-colors">
                 <p className="font-bold group-hover:text-yellow-100 transition-colors">💎 CLIENTI VIP</p>
               </div>
-              <p className="text-sm mb-6 group-hover:text-yellow-100 transition-colors">TUTELA IMPRESA 100%</p>
             </div>
             
             <div className="relative z-10">
-              <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg mb-6 border border-white/20 group-hover:bg-white/20 group-hover:shadow-lg transition-all">
+              <div className="bg-white/15 backdrop-blur-sm p-6 rounded-2xl mb-6 border-2 border-white/30 shadow-lg group-hover:bg-white/25 group-hover:shadow-xl transition-all duration-300">
                 <img 
                   src="/lovable-uploads/719d571a-1a2d-4a38-9d88-a850b42f2d80.png" 
                   alt="Tutela Impresa Logo" 
-                  className="h-10 object-contain mx-auto filter brightness-0 invert group-hover:scale-110 transition-transform duration-300"
+                  className="h-14 object-contain mx-auto filter brightness-0 invert group-hover:scale-110 transition-transform duration-300 drop-shadow-lg"
                   onError={(e) => {
                     e.currentTarget.src = tutelaImpresaLogo;
                   }}
