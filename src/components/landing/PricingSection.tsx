@@ -130,11 +130,11 @@ export default function PricingSection() {
             </div>
             
             <div className="relative z-10">
-              <div className="bg-gradient-to-br from-yellow-50 to-white p-6 rounded-2xl mb-6 border-2 border-yellow-200 shadow-lg group-hover:shadow-xl group-hover:border-yellow-300 transition-all duration-300">
+              <div className="mb-6 flex justify-center">
                 <img 
                   src="/lovable-uploads/719d571a-1a2d-4a38-9d88-a850b42f2d80.png" 
                   alt="Tutela Impresa Logo" 
-                  className="h-16 object-contain mx-auto group-hover:scale-110 transition-transform duration-300 drop-shadow-md"
+                  className="h-20 object-contain group-hover:scale-110 transition-transform duration-300 drop-shadow-lg filter drop-shadow-[0_4px_8px_rgba(0,0,0,0.1)]"
                   onError={(e) => {
                     e.currentTarget.src = tutelaImpresaLogo;
                   }}
@@ -171,11 +171,11 @@ export default function PricingSection() {
             </div>
             
             <div className="relative z-10">
-              <div className="bg-white/15 backdrop-blur-sm p-6 rounded-2xl mb-6 border-2 border-white/30 shadow-lg group-hover:bg-white/25 group-hover:shadow-xl transition-all duration-300">
+              <div className="mb-6 flex justify-center">
                 <img 
                   src="/lovable-uploads/719d571a-1a2d-4a38-9d88-a850b42f2d80.png" 
                   alt="Tutela Impresa Logo" 
-                  className="h-14 object-contain mx-auto filter brightness-0 invert group-hover:scale-110 transition-transform duration-300 drop-shadow-lg"
+                  className="h-20 object-contain group-hover:scale-110 transition-transform duration-300 filter brightness-0 invert drop-shadow-[0_0_12px_rgba(255,255,255,0.8)] group-hover:drop-shadow-[0_0_16px_rgba(255,255,255,1)]"
                   onError={(e) => {
                     e.currentTarget.src = tutelaImpresaLogo;
                   }}
