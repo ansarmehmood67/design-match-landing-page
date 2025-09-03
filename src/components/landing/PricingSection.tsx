@@ -23,14 +23,10 @@ const mobileStaggerContainer = {
 
 export default function PricingSection() {
   return (
-    <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 py-20 md:py-28 relative overflow-hidden">
-      {/* Background elements */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.05)_0%,transparent_50%)]"></div>
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(239,68,68,0.1)_0%,transparent_50%)]"></div>
-      
+    <section className="bg-white py-20 md:py-28 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 md:px-8 text-center relative z-10">
         <motion.h2 
-          className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-16 md:mb-20 relative"
+          className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-16 md:mb-20 relative"
           variants={fadeInUp}
           initial="hidden"
           whileInView="visible"
