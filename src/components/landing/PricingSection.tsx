@@ -126,7 +126,10 @@ export default function PricingSection() {
             
             <div className="relative z-10">
               <h3 className="text-4xl font-bold text-gray-900 mb-2 group-hover:text-yellow-700 transition-colors">€149,00</h3>
-              <p className="text-sm text-gray-500 mb-8 group-hover:text-gray-600 transition-colors">IVA ESCLUSA</p>
+              <p className="text-sm text-gray-500 mb-4 group-hover:text-gray-600 transition-colors">IVA ESCLUSA</p>
+              <div className="bg-gradient-to-r from-yellow-600 to-yellow-700 text-white px-4 py-2 rounded-lg mb-6 inline-block shadow-md group-hover:shadow-lg transition-shadow">
+                <p className="font-bold">💎 CLIENTI VIP</p>
+              </div>
             </div>
             
             <div className="relative z-10">
